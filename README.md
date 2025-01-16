@@ -1,6 +1,6 @@
 # Quantum-Weighted-Decomposition-Minimization (QWD-M)
 
-This repository contains a **full-scale implementation** of **Quantum Weighted Decomposition Minimization (QWD-M)** for quantum annealing, tested here on a **MaxCut** benchmark. QWD-M is an **innovative framework** designed to replace the typical initial Hamiltonian \(\hat{H}_i\) (such as a simple transverse field) with a **bespoke** version \(\hat{H}'_i\), ensuring the system starts from a _weighted superposition_ of potentially good configurations. Our results show significant improvements compared to both **standard quantum annealing** and **classical solvers** for the same QUBO problem.
+This repository contains a **full-scale implementation** of **Quantum Weighted Decomposition Minimization (QWD-M)** for quantum annealing, tested here on a **MaxCut** benchmark. QWD-M is an **innovative framework** designed to replace the typical initial Hamiltonian \(\hat{H}_i\) (such as a simple transverse field) with a **bespoke** version \(\hat{H}'_i\), ensuring the system starts from a _weighted superposition_ of potentially good configurations. The results show improvements compared to both **standard quantum annealing** and **classical solvers** for the same QUBO problem.
 
 ---
 
@@ -41,7 +41,7 @@ so the system starts in a **rich, pre-optimized superposition** and transitions 
 
 ## 2. Repository Contents
 
-1. **\`main.py\`**  
+1. **\`QWD-M_DEMO_Ocean.py\`**  
    A _comprehensive script_ implementing QWD-M on a MaxCut instance. It includes:
    - **Baseline Classical Solver** (Exact or Simulated Annealing).
    - **Standard Quantum Annealing** with a typical initial Hamiltonian.
@@ -97,7 +97,7 @@ so the system starts in a **rich, pre-optimized superposition** and transitions 
    ```
 3. **Execute** the main script:
    ```bash
-   python main.py
+   python QWD-M_DEMO_Ocean.py
    ```
 4. **Observing** the outputs, you should see three results:
    - Baseline classical energy,
