@@ -1,0 +1,1 @@
+# Quantum-Weighted-Decomposition-Minimization
